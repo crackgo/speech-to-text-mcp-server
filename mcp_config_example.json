@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "speech-to-text": {
+      "command": "python",
+      "args": [
+        "e:\\demoProject\\speech_to_text\\server.py"
+      ],
+      "env": {
+        "HUGGINGFACE_TOKEN": "hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    }
+  }
+}

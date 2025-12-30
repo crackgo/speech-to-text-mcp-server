@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Models cache
+.cache/
+models/
+
+# Test files
+test_audio/
+*.mp3
+*.wav
+*.m4a
+*.flac
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

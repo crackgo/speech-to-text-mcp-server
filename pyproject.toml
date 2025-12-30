@@ -1,0 +1,25 @@
+[project]
+name = "speech-to-text-mcp-server"
+version = "0.1.0"
+description = "MCP Server for speech-to-text with speaker diarization"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=0.9.0",
+    "openai-whisper>=20231117",
+    "pyannote.audio>=3.1.0",
+    "torch>=2.0.0",
+    "torchaudio>=2.0.0",
+    "pydub>=0.25.1",
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_backend"
